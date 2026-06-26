@@ -290,6 +290,75 @@
     color: var(--near-black);
   }
 
+  /* ── SECTION 3: TRAVEL & CONTACT ── */
+  .info-section {
+    background: var(--hero-bg);
+    padding: 100px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-section .section-eyebrow {
+    color: var(--blue);
+    margin-bottom: 18px;
+  }
+
+  .info-section .section-title {
+    color: var(--white);
+    margin-bottom: 56px;
+  }
+
+  .info-tiles {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    max-width: 820px;
+    flex-wrap: wrap;
+  }
+
+  .info-tile {
+    flex: 1;
+    min-width: 220px;
+    border: 1px solid rgba(255,255,255,0.10);
+    border-radius: 8px;
+    padding: 32px 28px;
+  }
+
+  .info-tile-label {
+    font-size: 9.5px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--blue);
+    margin-bottom: 14px;
+  }
+
+  .info-tile-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--white);
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+
+  .info-tile-body {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.52);
+    line-height: 1.65;
+  }
+
+  .info-tile-body a {
+    color: var(--blue);
+    text-decoration: none;
+  }
+
+  .info-tile-body a:hover {
+    text-decoration: underline;
+  }
+
   /* Footer */
   footer {
     background: var(--near-black);
@@ -407,6 +476,48 @@
     </div>
   </div>
 
+</section>
+
+<!-- SECTION 3: TRAVEL & CONTACT -->
+<section class="info-section">
+  <p class="section-eyebrow">Plan Your Trip</p>
+  <h2 class="section-title">Travel Logistics</h2>
+  <div class="info-tiles">
+    <div class="info-tile">
+      <div class="info-tile-label">Hotel</div>
+      <div class="info-tile-title">Inn at Rancho Santa Fe</div>
+      <div class="info-tile-body">
+        5951 Linea del Cielo<br>
+        Rancho Santa Fe, CA 92067<br><br>
+        Room block: Tuesday, September 29 through Thursday, October 1.
+      </div>
+    </div>
+    <div class="info-tile">
+      <div class="info-tile-label">Transportation</div>
+      <div class="info-tile-title">Getting There</div>
+      <div class="info-tile-body">
+        Nearest airport: SAN &middot; 35 min<br><br>
+        Complimentary self-parking is available at the Inn for the duration of the event.<br><br>
+        Rideshare (Uber/Lyft) is available from SAN and throughout the area.
+      </div>
+    </div>
+    <div class="info-tile">
+      <div class="info-tile-label">What to Pack</div>
+      <div class="info-tile-title">Dress Code</div>
+      <div class="info-tile-body">
+        Business casual for sessions and dinners.<br><br>
+        Pack athletic gear and tennis shoes for group activities, and bring layers for cooler evenings.
+      </div>
+    </div>
+    <div class="info-tile">
+      <div class="info-tile-label">Questions</div>
+      <div class="info-tile-title">Get in Touch</div>
+      <div class="info-tile-body">
+        For any questions about the event, please reach out to the team at<br><br>
+        <a href="mailto:events@telescopepartners.com">events@telescopepartners.com</a>
+      </div>
+    </div>
+  </div>
 </section>
 
 <footer>Telescope Partners &nbsp;·&nbsp; Confidential</footer>
